@@ -1,0 +1,19 @@
+{
+  "runtime": "NetCore31",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "fromSwagger": {
+      "url": "https://pokeapi.co/api/v2/swagger.json",
+      "output": "Client.cs"
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpClient": {
+      "clientBaseClass": "",
+      "configurationClass": "",
+      "additionalNamespaceUsages": [],
+      "namespace": "Client",
+      "output": "Client.cs"
+    }
+  }
+}
